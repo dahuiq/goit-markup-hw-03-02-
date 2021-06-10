@@ -63,6 +63,7 @@ header .container {
   justify-content: space-between;
   color: inherit;
   width: 294px;
+  margin-left: 93px;
 }
 .navlist li:first-child {
   margin-left: 93px;
@@ -77,6 +78,7 @@ header .container {
   letter-spacing: 0.02em;
   justify-content: space-between;
   color: var(--details-color);
+  margin-left: auto;
 }
 .media-list li:not(:last-child) {
   margin-right: 50px;
@@ -232,9 +234,11 @@ a {
   background-color: var(--white-color);
   text-align: center;
 }
-
+.info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .members .name {
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .members p {
@@ -245,7 +249,6 @@ a {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
 }
 .members .role {
   font-family: var(--main-font);
@@ -255,6 +258,9 @@ a {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.03em;
+}
+.web {
+  margin-bottom: 20px;
 }
 .studio2 {
   font-family: var(--accent-font);
@@ -288,11 +294,8 @@ a {
   letter-spacing: 0.03em;
   margin-bottom: 9px;
 }
-.contacts li:last-child {
-  padding-bottom: 60px;
-}
 .footer {
   padding-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   background-color: var(--accent-color);
 }
